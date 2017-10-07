@@ -6,7 +6,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
   if (err) {
     return console.log('No puedo conectar al server de BD');
   }
-  console.log('Conectado con exito a la BD');
+  console.log('Conectado con exito a la BD.');
   
 /*   db.collection('Todos').insertOne({
     text: 'Comprar paltas',
